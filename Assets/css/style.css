@@ -1,0 +1,427 @@
+
+/* icono de avatar*/
+.app-sidebar__user-avatar{
+	width: 48px;
+	background: gray;
+	padding:6px;
+
+}
+.modal-header{
+	background-color: #009688;
+	color: #FFF;
+}
+.headerRegister, .header-primary, .headerUpdate{
+	background: #009688;
+	color: #FFF;
+}
+.headerUpdate{
+	background: #17a2b8;
+	color: #FFF;
+}
+.notBlock{
+	display: none;
+}
+.button{
+	justify-content: left;
+}
+.input, .textarea { 
+	font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+/*ESTILOS DE LOGIN*/
+
+.material-half-bg .cover{
+	background-color: #00635a;
+}
+.login-head
+{
+	color: #00635a;
+}
+#btn-logo{
+	color: #FFF;
+background-color: #db7508;
+border-color: #db7508;
+
+}
+.login-form{
+	padding-bottom: 20px;
+}
+
+.user-imgs{
+    margin-top: -90px;
+    margin-bottom: 5px;
+    padding-left: 80px;
+   
+}
+
+.semibold-text{
+	background-blend-mode: 
+}
+/*  estilo de la imagen de login */
+.required{
+	color: red;
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+ .nav-icon {
+
+    margin-right: .6rem;
+}
+.icon-notif{
+  
+  color: #fff;
+  
+}
+.dropdown-toggle{
+	border: 2px solid #ced4da;
+}
+.ancho{
+	width: 950px;
+
+}
+.foto{
+	display: flex;
+  
+  align-content: center;
+  justify-content: center;
+  padding-top: 3%;
+	
+}
+.negrita{
+	font-weight: bold;
+	color: #009688;
+}
+
+.iconsSVG{
+	font-size: 18px;
+	color: red;
+}
+
+.tam{
+	font-size: 7pt;
+}
+
+/*Estilos de loading login*/
+#divLoading{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(254,254,255, .65);
+	z-index: 9999;
+	display: none;
+}
+#divLoading img{
+	width: 50px;
+	height: 50px;
+}
+.required{
+	color: red;
+	font-size: 13pt;
+	font-weight: bold;
+}
+
+/*ESTILOS PARA SUBIR FOTO DEL REGISTRO DE GANADO*/
+
+
+.prevPhoto {
+   display: flex;
+    justify-content: space-around;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #CCC;
+    position: relative;
+    cursor: pointer;
+    background: url(../images/uploads/vacaPortada.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    margin: auto;
+    margin-top: -12%;
+}
+.prevPhoto label{
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+.prevPhoto img{
+	width: 100%;
+	height: 100%;
+}
+.upimg, .notBlock{
+	display: none !important;
+}
+.errorArchivo{
+	font-size: 16px;
+	font-family: arial;
+	color: #cc0000;
+	text-align: center;
+	font-weight: bold; 
+	margin-top: 10px;
+}
+.delPhoto{
+	color: #FFF;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	background: red;
+	position: absolute;
+	right: -10px;
+	top: -10px;
+	z-index: 10;
+}
+#tbl_list_productos img{
+	width: 50px;
+}
+.imgProductoDelete{
+	width: 175px;
+}
+#celFoto{
+	text-align: center;
+}
+#celFoto img{
+	width: 300px;
+	margin: auto;
+}
+
+#tamano {
+	text-align: center;
+}
+#tamano {
+	width: 70px;
+	margin: auto;
+	border-radius: 3%;
+	box-shadow: 0 3px 6px rgba(0,0,0,.16),0 3px 6px rgba(0,0,0,.23)
+	
+}
+.linkw:hover{
+	text-decoration: none;
+}
+ 
+/*ESTILOS DE ICONOS CON MOVIMIENTOS*/
+
+#iconMovim{
+
+	width:90px;
+	height:90px;
+	background-color:#ffc107;
+   border-radius: 4px;
+}
+
+#iconMovimTrat{
+
+	width:130px;
+	height:90px;
+	background-color:#17a2b8;
+   border-radius: 4px;
+ }
+
+#iconMovimGana{
+
+	width:90px;
+	height:90px;
+	background-color:#009688;
+   border-radius: 4px;
+ }
+
+ #iconMovimEmp{
+
+	width:90px;
+	height:90px;
+	background-color:#dc3545;
+   border-radius: 4px;
+ }
+ #nav-iconCow {
+ 	width:30px;
+	height:30px;
+
+ }
+
+ #tamañoFuente{
+
+ 	font-size: 10pt;
+ }
+ #tamañoBtnView, #tamañoBtnEdit, #tamañoBtnDel{
+ 	font-size: 8pt;
+ }
+
+ /*ICONOS DE barra de nenu*/
+.app-sidebar__toggle{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 15pt;
+}
+.app-sidebar__toggle::before{
+	display: none;
+}
+.headerRegister, .header-primary{
+	background: #009688;
+	color: #FFF;
+}
+.headerUpdate{
+	background: #007bff;
+	color: #FFF;
+}
+.textcenter{
+	text-align: center;
+}
+.textright{
+	text-align: right;
+}
+.textleft{
+	text-align: left;
+}
+.bootstrap-select > .dropdown-toggle{
+	border: 1px solid #CCC;
+}
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 45px;
+  height: 20px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color:#009688;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.icon-venta{
+	width: 25px;
+	height: 25px;
+	color: #fff;
+}
+
+.btnView{
+	font-size: 16px;
+	color: #009688;
+  text-decoration: none;
+  background-color: transparent;
+  display: inline-block;
+	margin: 2px
+ }
+
+ .btnEdit{
+ 	font-size: 16px;
+	color: #009688;
+  text-decoration: none;
+  background-color: transparent;
+  margin: 2px
+ }
+ .btnDel{
+ 	font-size: 16px;
+	color: #009688;
+  text-decoration: none;
+  background-color: transparent;
+  margin: 2px;
+
+ }
+
+.btnView:hover{
+	
+	cursor: pointer;
+	color: #003e38;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	border-radius:20px;
+  
+}
+.btnEdit:hover{
+	
+	cursor: pointer;
+	color: #003e38;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	border-radius:20px;
+  
+}
+.btnDel:hover{
+	
+	cursor: pointer;
+	color: #003e38;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	border-radius:20px;
+  
+}
+
+.btnDisabled{
+	font-size: 16px;
+	color: #a4a4a4; 
+	cursor: not-allowed;
+	text-decoration: none;
+  background-color: transparent;
+  margin: 2px;
+
+}
+
+
